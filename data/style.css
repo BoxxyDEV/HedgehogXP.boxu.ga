@@ -1,0 +1,13 @@
+body {
+    /*background:radial-gradient(blue, purple);*/
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: bg 1000ms ease-in 100ms infinite normal;
+    margin-top: 25%;
+}
+
+@keyframes bg {
+    
+    from {background: radial-gradient(purple, blue); color: black;}
+    to {background: radial-gradient(blue, purple); color: white;}
+}
